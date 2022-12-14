@@ -33,3 +33,12 @@ Reiniciamo es servicio con el comando:
       systemctl start mosquitto
       
 ![](https://github.com/RamsesOrtiz36/ESP32CAM-MQTT-Basic-Rams-s/blob/main/Configuraci%C3%B3n%20MQTT/reconfigurar%20mosquitto.png)
+
+## Uso de MQTT esn ESP32CAM
+Este servicio se emplea para enviar y ver mensajes por el protocolo de MQTT por internet.
+
+La ESP32CAM ocupa una biblioteca para facilitar la subscripción y publicación de mensajes por internet empleando el puerto 1883.
+Usando la biblioteca **PubSubclient**.
+
+![]()
+
