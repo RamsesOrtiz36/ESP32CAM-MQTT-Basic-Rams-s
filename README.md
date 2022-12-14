@@ -16,7 +16,7 @@ Para configurar el servicio de broker MQTT (Mosquitto) ocupabos el archivo de co
 + Modificar la linea: **listener 1883 0.0.0.0** de la sección extra listener, dscomentadola y agregando el puerto 0.0.0.0
 + Usar el **Guardar como** para guardarlo en **/etc/mosquitto/conf.d/**.
 
-![]()
+![](https://github.com/RamsesOrtiz36/ESP32CAM-MQTT-Basic-Rams-s/blob/main/Configuraci%C3%B3n%20MQTT/Guardar%20archivo%20mqtt%20reconfigurado.png)
 
 ## Comprobar el funcionmiento del servicio MQTT
 
