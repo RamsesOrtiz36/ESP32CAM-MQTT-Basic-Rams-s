@@ -13,7 +13,7 @@ Para configurar el servicio de broker MQTT (Mosquitto) ocupabos el archivo de co
       sudo gedit mosquitto.conf
       
 + Descomentar la linea: **allow_anonymous = true** (quitando el simbolo # al inicio de la linea).
-+ Modificar la linea: **listener 1883 0.0.0.0** de la sección extra listener, dscomentadola y agregando el puerto 0.0.0.0
++ Modificar la linea: **listener 1883 0.0.0.0** de la sección extra listener, descomentadola y agregando el puerto 0.0.0.0
 + Usar el **Guardar como** para guardarlo en **/etc/mosquitto/conf.d/**.
 
 ![](https://github.com/RamsesOrtiz36/ESP32CAM-MQTT-Basic-Rams-s/blob/main/Configuraci%C3%B3n%20MQTT/Guardar%20archivo%20mqtt%20reconfigurado.png)
@@ -38,7 +38,9 @@ Reiniciamo es servicio con el comando:
 Este servicio se emplea para enviar y ver mensajes por el protocolo de MQTT por internet.
 
 La ESP32CAM ocupa una biblioteca para facilitar la subscripción y publicación de mensajes por internet empleando el puerto 1883.
-Usando la biblioteca **PubSubclient**.
+Usando la biblioteca **PubSubClient**.
+
+En el IDE de Arduino vamos a Herramientas- Administrador de bibliotecas (o mal traducido librerias)- **buscar PubSubClient de Nick O'Leary**
 
 ![](https://github.com/RamsesOrtiz36/ESP32CAM-MQTT-Basic-Rams-s/blob/main/Configuraci%C3%B3n%20MQTT/ESP32CAM%20MQTT%20Biblioteca.png)
 
